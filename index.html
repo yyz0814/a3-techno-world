@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techno World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="club" id="clubScene">
+    <div class="background-layer"></div>
+    <div class="light-layer" id="lightLayer"></div>
+    <div class="laser-layer" id="laserLayer">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="smoke-layer" id="smokeLayer">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="strobe-layer" id="strobeLayer"></div>
+    <section class="intro-panel">
+      <h1>Techno World</h1>
+      <p class="description">Click the control buttons like a VJ or lighting operator. Each button triggers a different club atmosphere: light, smoke, laser, strobe, or bass pressure.</p>
+    </section>
+    <section class="control-panel" aria-label="Techno visual controls">
+      <button data-effect="lights">LIGHTS</button>
+      <button data-effect="smoke">SMOKE</button>
+      <button data-effect="laser">LASER</button>
+      <button data-effect="strobe">STROBE</button>
+      <button data-effect="bass">BASS</button>
+      <button data-effect="reset" class="secondary">RESET</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

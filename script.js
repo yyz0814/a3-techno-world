@@ -14,6 +14,8 @@ During this process, I used AI as a learning and support tool. AI helped me unde
 However, AI did not directly complete the final work for me. After understanding these suggestions, I wrote and tested the code myself, adjusted the effect names, and checked in the browser whether each button could trigger the correct effect. I also decided the final visual style based on my project direction: a dark background, strong colours, poster-style buttons, lights, smoke, lasers, strobe, and bass movement.
 
 The final concept, visual direction, colour choices, button structure, and interaction method were all selected and edited by me according to the requirements of this assignment. The design intention of my final prototype is to turn a simple browser click into a club visual control action. A small click can become a lighting cue, a smoke release, a laser trigger, a strobe burst, or a physical feeling of bass pressure.
+
+gif Source: socialrehab.tumblr.com
 */
 
 
